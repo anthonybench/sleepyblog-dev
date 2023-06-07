@@ -1,5 +1,6 @@
-import './globals.css'
 import { Inter } from 'next/font/google'
+import Link from 'next/link';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <h1>SleepyBlog</h1>
+          <ul>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/furniture">Furniture</Link></li>
+            <li><Link href="/tutoring">Tutoring</Link></li>
+            <li><Link href="/software">Software</Link></li>
+          </ul>
+        <p>
+          Authored by Isaac Yep,<br />
+          Last updated (generated-on-build)
+        </p>
+        {children}
+      </body>
     </html>
   )
 }

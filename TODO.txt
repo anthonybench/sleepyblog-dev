@@ -1,0 +1,10 @@
+- get clean core content structure
+  - home page
+  - dynamic blog post page
+  - nav bar (side or top?)
+- implement MUI
+- implement linting
+  - husky?
+  - prettier?
+- implement storybook (?)
+- implement ci/cd

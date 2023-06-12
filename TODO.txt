@@ -1,16 +1,13 @@
 ═══════════════════════════╗
  ●  Development            ║
 ═══════════════════════════╝
-- core content structure
-  - dynamic blog post page
-  - side nav
 - material ui
   - *
+- test app/loading.tsx
+- test app/global-error.tsx
 - implement linting
   - husky?
   - prettier?
-- implement storybook (?)
-  - *
 - implement ci/cd
   - *
 

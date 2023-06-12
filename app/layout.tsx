@@ -1,8 +1,7 @@
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
 import Link from 'next/link';
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',
@@ -17,19 +16,32 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1>SleepyBlog</h1>
+
+        <div id="header">
+          <Link href="/"><h1>SleepyBlog</h1></Link>
+          <span>
+            (theme select-list dropdown)
+          </span>
+        </div>
+
+        <div id="side-nav">
           <ul>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/furniture">Furniture</Link></li>
             <li><Link href="/tutoring">Tutoring</Link></li>
             <li><Link href="/software">Software</Link></li>
           </ul>
-        <p>
-          Authored by Isaac Yep,<br />
-          Last updated (generated-on-build)
-        </p>
-        {children}
+          <p>
+            Authored by Isaac Yep,<br />
+            Last updated (generated-on-build)
+          </p>
+        </div>
+
+        <div id="content">
+          {children}
+        </div>
+
       </body>
     </html>
-  )
+  );
 }

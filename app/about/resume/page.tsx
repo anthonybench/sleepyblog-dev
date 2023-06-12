@@ -1,21 +1,14 @@
 import React, { useState } from 'react';
 
-
-
 export default function Page() {
   return (
     <div>
 
-      <a
-        href="assets/resume.pdf"
-        download="/assets/resume.pdf"
-        target='_blank'
-      >
-          <button>download</button>
-      </a>
+      <button>download</button>
 
-
-      {/* TODO: embedded resume */}
+      <div>
+        (embedded resume)
+      </div>
 
       <h3>reach out</h3>
       <p>

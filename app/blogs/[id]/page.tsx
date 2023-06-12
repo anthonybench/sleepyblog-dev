@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
-export default function Home() {
+export default function Page({ params }: { params: { id: number } }) {
   return (
     <main>
-      <h2>Home</h2>
+      <h2>Blog {params.id}</h2>
 
       <div>
-        Blogs!
+        {params.id}
       </div>
     </main>
   );

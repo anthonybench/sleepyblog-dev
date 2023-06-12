@@ -1,10 +1,24 @@
-- get clean core content structure
-  - home page
+═══════════════════════════╗
+ ●  Development            ║
+═══════════════════════════╝
+- core content structure
   - dynamic blog post page
-  - nav bar (side or top?)
-- implement MUI
+  - side nav
+- material ui
+  - *
 - implement linting
   - husky?
   - prettier?
 - implement storybook (?)
+  - *
 - implement ci/cd
+  - *
+
+
+═══════════════════════════╗
+ ●  Art Needed             ║
+═══════════════════════════╝
+- custom 404 page
+- favicon
+- "SleepyBlog" title text (image, not actually text)
+- under construction page

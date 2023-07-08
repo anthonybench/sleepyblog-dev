@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
+import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,14 +15,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="valentine">
       <body>
 
         <div id="header">
-          <Link href="/"><h1>SleepyBlog</h1></Link>
-          <span>
-            (theme select-list dropdown)
-          </span>
+          <Link href="/"><h1 className="btn btn-ghost normal-case text-xl">SleepyBlog (will be image)</h1></Link>
+          <span>(theme select-list dropdown)</span>
         </div>
 
         <div id="side-nav">
@@ -33,7 +32,7 @@ export default function RootLayout({
           </ul>
           <p>
             Authored by Isaac Yep,<br />
-            Last updated (generated-on-build)
+            Last updated (generated on build)
           </p>
         </div>
 

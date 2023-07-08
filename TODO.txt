@@ -2,14 +2,15 @@
  ●  Development            ║
 ═══════════════════════════╝
 - material ui
-  - *
+- metadata in app/layout.tsx
 - test app/loading.tsx
 - test app/global-error.tsx
+- tailwind.config.js
+- postcss.config.js
 - implement linting
   - husky?
   - prettier?
 - implement ci/cd
-  - *
 
 
 ═══════════════════════════╗

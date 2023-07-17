@@ -6,7 +6,7 @@ export default function DingusLayout({
   return (
     <section>
       {/* Include shared UI here e.g. a header or sidebar */}
-      <h1>I'm learning! Hooray! 🎉</h1>
+      <h1>Secret Page! 🎉</h1>
       <nav></nav>
  
       {children}

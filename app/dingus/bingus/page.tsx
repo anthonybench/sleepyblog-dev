@@ -1,3 +1,5 @@
 export default function Page() {
-  return <div>Hello Bingus</div>;
+  return (
+    <h3>BINGUS</h3>
+  );
 }

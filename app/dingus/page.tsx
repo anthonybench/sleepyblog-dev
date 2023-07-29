@@ -1,5 +1,5 @@
 export default function Page() {
   return (
-    <h3>DINGUS</h3>
+    <h3>dingus</h3>
   );
 }
